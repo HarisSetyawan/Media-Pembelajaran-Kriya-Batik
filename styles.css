@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS'; 
+    font-family: fantasy; 
     background-image: url('bg\ body.png');
     background-size: cover; 
     background-position: center;
@@ -18,7 +18,7 @@ header {
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 40px 0;
-    font-size: 21px;
+    font-size: 18px;
     font-weight: bold;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.7);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
@@ -55,7 +55,7 @@ main {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 14px;
+    font-size: 12px;
     color: #ffffff; 
     overflow: visible; /* Pastikan overflow terlihat */
 }
@@ -63,7 +63,7 @@ main {
 /* Menambahkan gambar awan di pojok kiri bawah */
 #intro::before {
     content: '';
-    position: absolute; /* Pastikan posisi gambar adalah absolute */
+    position: relative; /* Pastikan posisi gambar adalah absolute */
     bottom: -95px; /* Memindahkan gambar ke bawah sehingga melayang */
     left: -75px; /* Memindahkan gambar ke kiri */
     width: 200px; /* Sesuaikan ukuran awan */
@@ -78,7 +78,7 @@ main {
 /* Menambahkan gambar awan di pojok kanan atas */
 #intro::after {
     content: '';
-    position: absolute; /* Pastikan posisi gambar adalah absolute */
+    position: relative; /* Pastikan posisi gambar adalah absolute */
     top: -95px; /* Memindahkan gambar ke atas sehingga melayang */
     right: -75px; /* Memindahkan gambar ke kanan */
     width: 200px; /* Sesuaikan ukuran awan */
