@@ -6,6 +6,7 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
+    overflow: hidden; 
 }
 
 /* Header */
@@ -46,7 +47,7 @@ main {
     margin-right: auto;
     font-size: 14px;
     color: #ffffff; 
-    overflow: hidden; 
+    overflow: visible; /* Pastikan overflow terlihat */
 }
 
 /* Menambahkan gambar awan di pojok kiri bawah */
