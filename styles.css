@@ -6,7 +6,6 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
-    overflow: hidden; 
 }
 
 /* Header */
@@ -78,6 +77,7 @@ main {
     background-repeat: no-repeat;
     z-index: 1; /* Pastikan berada di bawah bubble */
     opacity: 1; /* Transparansi opsional */
+    overflow: hidden;
 }
 
 /* Bubble Decoration */
