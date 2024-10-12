@@ -46,7 +46,7 @@ main {
     margin-right: auto;
     font-size: 14px;
     color: #ffffff; 
-    overflow: visible; /* Pastikan overflow terlihat */
+    overflow: hidden; 
 }
 
 /* Menambahkan gambar awan di pojok kiri bawah */
