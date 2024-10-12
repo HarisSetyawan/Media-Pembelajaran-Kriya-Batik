@@ -1,6 +1,5 @@
 /* General Styles */
 body {
-    font-family: 'Chewy', 'Playfair Display', 'Lato', 'Airyfly', 'Little Book', 'Comic Sans MS', cursive, calibri;
     background-image: url('bg\ body.png');
     background-size: cover; 
     background-position: center;
@@ -21,7 +20,6 @@ header {
     padding: 50px 0;
     font-size: 24px;
     font-weight: bold;
-    font-family: 'Chewy', 'Playfair Display', 'Lato', 'Airyfly', 'Little Book', 'Comic Sans MS', cursive, calibri;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.7);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
@@ -57,7 +55,6 @@ main {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Chewy', 'Playfair Display', 'Lato', 'Airyfly', 'Little Book', 'Comic Sans MS', cursive, calibri;
     font-size: 16px;
     color: #ffffff; 
     overflow: visible; /* Pastikan overflow terlihat */
@@ -135,7 +132,6 @@ main {
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.7);
     text-align: left; /* Align the text to the left */
     position: relative;
-    font-family: 'Chewy', 'Playfair Display', 'Lato', 'Airyfly', 'Little Book', 'Comic Sans MS', cursive, calibri;
 }
 
 .question-box {
@@ -155,7 +151,6 @@ button {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    font-family: 'Chewy', 'Playfair Display', 'Lato', 'Airyfly', 'Little Book', 'Comic Sans MS', cursive, calibri;
     font-size: 16px;
     cursor: pointer;
     margin-top: 10px;
@@ -178,7 +173,6 @@ footer {
     padding: 15px 0;
     border-top: 7px solid #101881;
     font-size: 16px;
-    font-family: 'Chewy', 'Playfair Display', 'Lato', 'Airyfly', 'Little Book', 'Comic Sans MS', cursive, calibri;
     position: relative;
     bottom: 0;
     width: 100%;
