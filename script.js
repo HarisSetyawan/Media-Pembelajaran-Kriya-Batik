@@ -87,15 +87,15 @@ function calculateLearningStyle(answers) {
     if (visual > auditory && visual > kinesthetic) {
         learningStyle = 'Visual';
         resultText.innerText = 'Anda memiliki gaya belajar Visual.';
-        redirectUrl = 'https://www.canva.com/design/DAGSAzYOVtg/IQmifepY26fBNG-KuhmG4g/edit?utm_content=DAGSAzYOVtg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton';
+        redirectUrl = 'https://youtu.be/DQ71EsH4nuU?si=SWtzJTHx1Entg2NQ';
     } else if (auditory > visual && auditory > kinesthetic) {
         learningStyle = 'Auditory';
         resultText.innerText = 'Anda memiliki gaya belajar Auditory.';
-        redirectUrl = 'https://www.canva.com/design/DAGRZfjg3gc/E8TjAdKzUxwlCkjWm1IGUQ/edit?utm_content=DAGRZfjg3gc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton';
+        redirectUrl = 'https://kinestetic.my.canva.site/auditory-baru';
     } else {
         learningStyle = 'Kinesthetic';
         resultText.innerText = 'Anda memiliki gaya belajar Kinesthetic.';
-        redirectUrl = 'https://www.canva.com/design/DAGSDL7qndc/U1ErrnKxY1G3LNikLCWUTw/edit?utm_content=DAGSDL7qndc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton';
+        redirectUrl = 'https://kinestetic.my.canva.site/kinestetik';
     }
 
     quizSection.style.display = 'none';
